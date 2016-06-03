@@ -9,7 +9,7 @@ matrix:
         - compiler: gcc
           env: COMPILER=g++-6.1     STD=c++0x BUILD_TYPE=Debug
         - compiler: gcc
-          env: COMPILER=g++-4.6     STD=c++0x BUILD_TYPE=Release
+          env: COMPILER=g++-6.1     STD=c++0x BUILD_TYPE=Release
         - compiler: gcc
           env: COMPILER=g++-4.8     STD=c++11 BUILD_TYPE=Debug
         - compiler: gcc
