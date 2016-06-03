@@ -11,9 +11,9 @@ matrix:
         - compiler: gcc
           env: COMPILER=g++-4.6     STD=c++0x BUILD_TYPE=Release
         - compiler: gcc
-          env: COMPILER=g++-6.1.1     STD=c++11 BUILD_TYPE=Debug
+          env: COMPILER=g++-6.1.1     STD=c++14 BUILD_TYPE=Debug
         - compiler: gcc
-          env: COMPILER=g++-6.1.1     STD=c++11 BUILD_TYPE=Release
+          env: COMPILER=g++-6.1.1      BUILD_TYPE=Release
         - compiler: clang
           env: COMPILER=clang++-3.8 STD=c++11 BUILD_TYPE=Debug
         - compiler: clang
