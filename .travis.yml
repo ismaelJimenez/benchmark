@@ -7,7 +7,7 @@ matrix:
         - compiler: gcc
           env: COMPILER=g++-6.1     STD=c++0x BUILD_TYPE=Coverage
         - compiler: gcc
-          env: COMPILER=g++-4.6     STD=c++0x BUILD_TYPE=Debug
+          env: COMPILER=g++-6.1     STD=c++0x BUILD_TYPE=Debug
         - compiler: gcc
           env: COMPILER=g++-4.6     STD=c++0x BUILD_TYPE=Release
         - compiler: gcc
